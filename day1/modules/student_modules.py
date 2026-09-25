@@ -14,6 +14,7 @@ marks_comm = float(input("Enter Communication marks: "))
 # TODO:
 # Calculate the percentage using the imported function
 
+def calculate_percentage
 percentage = 0
 print("\n--- Result ---")
 print(f"Student: {student_name}")
