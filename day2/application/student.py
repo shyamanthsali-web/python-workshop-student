@@ -29,6 +29,19 @@ class Student:
         print("Mathematics:", self.mathematics)
         print("Communication:", self.communication)
         print("Percentage:", self.calculate_percentage())
+        print("Grade:", self.grade())
+
+    def grade(self):
+        """Determine the student's grade based on percentage."""
+        percentage = self.calculate_percentage()
+        if percentage >= 80:
+            return "A"
+        elif percentage >= 60:
+            return "B"
+        elif percentage >= 40:
+            return "C"
+        else:
+            return "D"
 
 if __name__ =="__main__":
                 obj_1 = Student("rohit",20,40,54,65)
